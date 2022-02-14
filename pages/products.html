@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furnishify</title>
+    <link rel="stylesheet" href="https://xenon-ui.netlify.app/css/main.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-section left">
+            <div class="nav-logo">
+                <a href="/index.html"><img loading="lazy" src="../assets/furnishify.png" alt="logo" /></a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a class="fw-bold">Home</a></li>
+                <li class="nav-menu-item"><a class="fw-bold">Shop Now</a></li>
+            </ul>
+        </div>
+        <div>
+        </div>
+        <div class="nav-section right">
+            <ul class="nav-menu">
+                <div class="input-icon">
+                    <input class="input" type="text" placeholder="Search" />
+                    <button class="btn icon-only"><i class="fa fa-search"></i></button>
+                </div>
+                <li class="nav-menu-item"><a class="fw-bold"><i class="fs-2 fa-solid fa-user"></i></a></li>
+                <li class="nav-menu-item"><a class="fw-bold"><i class="fs-2 fa-solid fa-heart"></i></a></li>
+                <li class="nav-menu-item"><a class="fw-bold"><i class="fs-2 fa fa-cart-shopping"></i></a></li>
+            </ul>
+            <div class="nav-menu-resp"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+    <div class="grid-20-80">
+        <aside class="filer-section p-4">
+            <div class="filter-header">
+                <p class="fs-3">Filter</p>
+                <button class="mr-auto btn icon-only"><i class="fa fa-times"></i></button>
+            </div>
+            <div class="my-1">
+                <p class="fs-2">Category</p>
+                <ul class="fs-1 list no-bullets">
+                    <li>
+                        <input id="desk" type="checkbox"/>
+                        <label for="desk">Desk</label>
+                    </li>
+                    <li>
+                        <input id="side-table" type="checkbox"/>
+                        <label for="side-table">Side Tables</label>
+                    </li>
+                    <li>
+                        <input id="storage" type="checkbox"/>
+                        <label for="storage">Storage</label>
+                    </li>
+                    <li>
+                        <input id="beds" type="checkbox"/>
+                        <label for="beds">Beds</label>
+                    </li>
+                    <li>
+                        <input id="sofa" type="checkbox"/>
+                        <label for="sofa">Sofa</label>
+                    </li>
+                    <li>
+                        <input id="chairs" type="checkbox"/>
+                        <label for="chairs">Loungers/Chairs</label>
+                    </li>
+                </ul>
+            </div>
+            <hr>
+            <div class="my-1">
+                <p class="fs-2">Rating</p>
+                <ul class="fs-1 list no-bullets">
+                    <li>
+                        <input id="four" type="radio"/>
+                        <label for="four">Four stars and above</label>
+                    </li>
+                    <li>
+                        <input id="three" type="radio"/>
+                        <label for="three">Three stars and above</label>
+                    </li>
+                    <li>
+                        <input id="two" type="radio"/>
+                        <label for="two">Two stars and above</label>
+                    </li>
+                    <li>
+                        <input id="one" type="radio"/>
+                        <label for="one">One stars and above</label>
+                    </li>
+                </ul>
+            </div>
+            <hr>
+            <div class="my-1">
+                <p class="fs-2">Price</p>
+                <input type="range"/>
+            </div>
+            <hr>
+            <div class="my-1">
+                <p class="fs-2">Sort by</p>
+                <ul class="fs-1 list no-bullets">
+                    <li>
+                        <input id="low-to-high" type="radio"/>
+                        <label for="four">Price - Low to High</label>
+                    </li>
+                    <li>
+                        <input id="high-to-low" type="radio"/>
+                        <label for="three">Price - High to Low</label>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <section class="card-grid justify-center py-5">
+            <div class="card">
+                <div class="card-media">
+                    <img class="img-responsive img-rounded" src="https://hausimg.imgix.net/s/files/1/0053/2792/products/haus-london-finn-juhl-france_7aec9022-cfee-4182-b245-eb717e46ca7d.jpg?v=1635347122&auto=format&w=1280&" alt="card media" />
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Nyhavn Desk</h3>
+                    <p class="card-text">₹ 3112</p>
+                    <small>House of Finn Juhl</small>
+                </div>
+                <div class="card-footer">
+                    <button class="btn primary">Add to cart</button>
+                    <button class="btn icon-only primary"><i class="fa-regular fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-media">
+                    <img class="img-responsive img-rounded" src="https://hausimg.imgix.net/s/files/1/0053/2792/products/haus-london-menu-eclipse-desk.jpg?v=1628587737&auto=format&w=1280&" alt="card media" />
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Eclipse Desk</h3>
+                    <p class="card-text">₹ 1860</p>
+                    <small>Menu</small>
+                </div>
+                <div class="card-footer">
+                    <button class="btn primary">Add to cart</button>
+                    <button class="btn icon-only primary"><i class="fa-regular fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-media">
+                    <img class="img-responsive img-rounded" src="https://cdn.shopify.com/s/files/1/0053/2792/products/PavilionAV17_Chromew.MushroomLinoleum_amp_ClearLacqueredOak.jpg?v=1631525786" alt="card media" />
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Pavilion Desk AV17</h3>
+                    <p class="card-text">₹ 1199</p>
+                    <small>&Tradition</small>
+                </div>
+                <div class="card-footer">
+                    <button class="btn primary">Add to cart</button>
+                    <button class="btn icon-only primary"><i class="fa-regular fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-media">
+                    <img class="img-responsive img-rounded" src="https://hausimg.imgix.net/s/files/1/0053/2792/products/haus-london-scp-construction2.jpg?v=1635774936&auto=format&w=1280&" alt="card media" />
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Constructivist Table</h3>
+                    <p class="card-text">₹ 590</p>
+                    <small>SCP</small>
+                </div>
+                <div class="card-footer">
+                    <button class="btn primary">Add to cart</button>
+                    <button class="btn icon-only primary"><i class="fa-regular fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-media">
+                    <img class="img-responsive img-rounded" src="https://cdn.shopify.com/s/files/1/0053/2792/products/haus-london-hay-kofi6.jpg?v=1629888685" alt="card media" />
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Kofi Table Square</h3>
+                    <p class="card-text">₹ 425</p>
+                    <small>Hay</small>
+                </div>
+                <div class="card-footer">
+                    <button class="btn primary">Add to cart</button>
+                    <button class="btn icon-only primary"><i class="fa-regular fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-media">
+                    <img class="img-responsive img-rounded" src="https://hausimg.imgix.net/s/files/1/0053/2792/products/haus-london-l-ercolani-cut-out-imagery53.jpg?v=1631738404&auto=format&w=1280&" alt="card media" />
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Canvas Cabinet</h3>
+                    <p class="card-text">₹ 2130</p>
+                    <small>Ercol</small>
+                </div>
+                <div class="card-footer">
+                    <button class="btn primary">Add to cart</button>
+                    <button class="btn icon-only primary"><i class="fa-regular fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-media">
+                    <img class="img-responsive img-rounded" src="https://cdn.shopify.com/s/files/1/0053/2792/products/haus-london-ferm-living-haze3.jpg" alt="card media" />
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Haze Wall Cabinet</h3>
+                    <p class="card-text">₹ 369</p>
+                    <small>Ferm Living</small>
+                </div>
+                <div class="card-footer">
+                    <button class="btn primary">Add to cart</button>
+                    <button class="btn icon-only primary"><i class="fa-regular fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-media">
+                    <img class="img-responsive img-rounded" src="https://hausimg.imgix.net/s/files/1/0053/2792/products/ffa.jpg?v=1571262780&auto=format&w=1280&" alt="card media" />
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Frame Cabinet F02</h3>
+                    <p class="card-text">₹ 2595</p>
+                    <small>Pastoe</small>
+                </div>
+                <div class="card-footer">
+                    <button class="btn primary">Add to cart</button>
+                    <button class="btn icon-only primary"><i class="fa-regular fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-media">
+                    <img class="img-responsive img-rounded" src="https://hausimg.imgix.net/s/files/1/0053/2792/products/Boomerang_HM2_Oak_Hallingdal130.jpg?v=1632488548&auto=format&w=1280&" alt="card media" />
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Boomerang HM2 Armchair</h3>
+                    <p class="card-text">₹ 2655</p>
+                    <small>&Tradition</small>
+                </div>
+                <div class="card-footer">
+                    <button class="btn primary">Add to cart</button>
+                    <button class="btn icon-only primary"><i class="fa-regular fa-heart"></i></button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer py-3 text-center">
+        <p>Made with &lt;/&gt; by <a href="https://ravikumar0403.netlify.app" class="text-primary">Ravi Kumar Singh</a></p>
+        <ul class="list inline justify-center">
+            <li class="nav-menu-item"><a class="fw-bold" href="https://github.com/ravikumar0403/XenonUI/tree/main" target="_blank"><i class="fs-1 fab fa-github"></i></a></li>
+            <li class="nav-menu-item"><a class="fw-bold" href="https://twitter.com/ravikumar0403" target="_blank"><i class="fs-1 fab fa-twitter"></i></a></li>
+            <li class="nav-menu-item"><a class="fw-bold" href="https://www.linkedin.com/in/ravikumar0403/" target="_blank"><i class="fs-1 fab fa-linkedin"></i></a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
