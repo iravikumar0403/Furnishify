@@ -44,6 +44,28 @@ aside{
     display: flex;
 }
 
+/* Cart page styles */
+
+.cart{
+    display: flex;
+    padding: 1rem;
+    margin: 2rem auto;
+    max-width: 1140px;
+}
+
+.cart-list{
+    flex-grow: 2;
+}
+
+.cart-summary{
+    flex-grow: 1;
+}
+
+.summary-price{
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer{
     box-shadow: 0 0 4px var(--divider-color);
 }
