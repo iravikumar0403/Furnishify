@@ -78,6 +78,5 @@ aside{
 }
 
 .footer{
-    position: sticky;
     box-shadow: 0 0 4px var(--divider-color);
 }
