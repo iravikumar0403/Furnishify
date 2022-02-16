@@ -17,6 +17,17 @@ aside{
     border-right: 1px solid var(--divider-color);
 }
 
+.form{
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 4;
+    max-width: 350px;
+    margin: 5rem auto;
+}
+
 .grid-20-80{
     display: grid;
     grid-template-columns: minmax(200px, 1fr) 4fr;
