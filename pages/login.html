@@ -29,9 +29,9 @@
                     <input class="input" type="text" placeholder="Search" />
                     <button class="btn icon-only"><i class="fa fa-search"></i></button>
                 </div>
-                <li class="nav-menu-item"><a class="fw-bold"><i class="fs-2 fa-solid fa-user"></i></a></li>
-                <li class="nav-menu-item"><a class="fw-bold"><i class="fs-2 fa-solid fa-heart"></i></a></li>
-                <li class="nav-menu-item"><a class="fw-bold"><i class="fs-2 fa fa-cart-shopping"></i></a></li>
+                <li class="nav-menu-item"><a class="fw-bold" href="/pages/login.html"><i class="fs-2 fa-solid fa-user"></i></a></li>
+                <li class="nav-menu-item"><a class="fw-bold" href="/pages/wishlist.html"><i class="fs-2 fa-solid fa-heart"></i></a></li>
+                <li class="nav-menu-item"><a class="fw-bold" href="/pages/cart.html"><i class="fs-2 fa fa-cart-shopping"></i></a></li>
             </ul>
             <div class="nav-menu-resp"><i class="fas fa-bars"></i></div>
         </div>
@@ -45,9 +45,13 @@
             </div>
             <div>
                 <label class="label my-3" for="password">Password</label> 
-                <input class="input" type="password" id="password" required/>
+                <div class="input-icon">
+                    <input class="input" type="password" id="password"/>
+                    <button type="button" class="btn icon-only"><i class="fa-regular fa-eye-slash"></i></button>
+                </div>
             </div>
-            <input class="btn primary my-4" type="submit" value="Login" />
+            <input class="btn primary my-2" type="submit" value="Login" />
+            <p>Not a member? &nbsp; <a class="link primary" href="/pages/signup.html">Sign up</a></p>
         </form>
     </div>
 </body>
