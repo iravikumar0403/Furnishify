@@ -17,6 +17,10 @@ aside{
     border-right: 1px solid var(--divider-color);
 }
 
+.overlay{
+    flex-direction: column;
+}
+
 .form{
     align-items: center;
     background-color: var(--white);
